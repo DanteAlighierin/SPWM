@@ -1,6 +1,5 @@
 from Xlib.display import Display
 from Xlib import X, XK, Xatom
-import commands
 dpy = Display()
 dpy.screen().root.grab_key(dpy.keysym_to_keycode(XK.string_to_keysym("F1")), X.Mod1Mask, 1,
         X.GrabModeAsync, X.GrabModeAsync)
