@@ -1,4 +1,3 @@
-#!/usr/bin/python2
 from Xlib.display import Display
 from Xlib import X, XK, Xatom
 dpy = Display()
